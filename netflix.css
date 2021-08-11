@@ -1,0 +1,83 @@
+* {
+    margin: 0px; /*default değerleri sıfırladık */
+    padding: 0px;
+    box-sizing: border-box; /*tüm özellikleri sıfırlayıp border box olarak ayarladık*/
+}
+body{
+    color: white;
+    background-image: url("bckgrnd.jpg");
+}
+#form-container {
+    max-width: 1240px; /*max ile maximum büyüklüğünü girdk, ekran küçüldükçe sayfa da küçülebilsin diye */
+    height: 1036px;
+    margin: auto; /* ortaladık */
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#title-id {
+    color: white; /* net kısmını beyaz yazdık */
+    font-family: 'Bowlby One SC', cursive;  /* figmada istenilen font stilini google dan bulup linkini html e ekledik */
+    font-size: 3.125rem; /* rem olarak vermemizin sebebi daha dinamik olması, default değeri alıyor ve sabit görüntü olmuyor */
+
+}
+
+span {
+    color: red;
+}
+
+#text-id {
+    font-size: 1.4375rem;
+    font-family: 'Sorts Mill Goudy', serif; /* bu kodu google fonts dan bulabiliriz */
+}
+
+#form-header {
+    text-align: center;
+}
+
+#survey-form-container {
+    max-width: 500px;  /* 500 den küçülebilir max 500 e kadar büyür */
+    height: 897px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto; /* container ı ortaladık, genişlik vermezsek margin çalışmaz */
+    padding: 10px;
+}
+
+#survey-form {
+    max-width: 460px;
+    height: 870px;
+    margin: auto;
+    font-size: 1rem;
+}
+
+#name,
+#age,
+#email,
+#dropdown,
+#feedback {
+    width: 100%;  /*tüm stırların genişliğini tam yaptık */
+    padding: 10px 10px;
+    margin-top: 5px;
+}
+
+.input-box {
+    margin-top: 20px;
+}
+
+#form-button {
+    width: 160px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;  /*buton üzerine gelindiğine parmak çıakrır */
+    border-radius: 50px;  /*kenarları yuvarladık */
+}
+
+#form-submit {
+    width: 160px;
+    margin: auto; /* butonu ortaladık, genişlik vermezsek margin çalışmaz */
+    margin-top: 5px;
+}
+
